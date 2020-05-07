@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=UnScrabbler
+comment0.text=\ \ this\ class\ reads\ in\ a\ file\ of\ words,\ which\ is\ stored\ in\ an\ arraylist.\ This\ program\ will\ then\ take\ in\r\n\ a\ string\ of\ length\ n\ and\ finds\ words\ of\ length\ n-1\ found\ in\ the\ arraylist\ containing\ the\ words.\r\n\ Ex.\ String\ n\ is\ state.\ words\ of\ length\ five\ in\ state\ that\ is\ found\ in\ the\ text\ file\ is\ state,\ a\ word\ of\r\n\ length\ 4\ is\ tate.\ this\ program\ does\ that\ all\ the\ way\ down\ to\ length\ n-1.\r\n\r\n\ @author\ (Amar\ Jagrup)\r\n\ @version\ (1/30/19)\r\n
+comment1.params=words
+comment1.target=UnScrabbler(java.lang.String)
+comment1.text=\r\n\ This\ method\ is\ used\ to\ read\ in\ the\ text\ file\ using\ a\ bufferedReader\r\n\ @param\ words\ this\ parameter\ represents\ the\ name\ of\ the\ text\ file\ to\ be\ read.\ reads\ filename\ without\ .txt.\r\n\ @return\ \ nothing\r\n\ @\ exception\ IOException\ when\ the\ text\ file\ is\ not\ found\r\n
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment2.text=\r\n\ This\ main\ method\ finds\ word\ of\ length\ n\ down\ to\ n-1\ of\ the\ parameter\ args[0].\ \r\n\ this\ method\ then\ prints\ out\ words\ found\ in\ args[0].\ \r\n\ @param\ args[]-\ args[0]\ will\ be\ the\ word\ to\ find\ \r\n\ @return\ \ nothing\r\n\ @\ exception\ IOException\ when\ the\ text\ file\ is\ not\ found\r\n
+numComments=3
